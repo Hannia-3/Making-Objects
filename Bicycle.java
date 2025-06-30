@@ -1,7 +1,7 @@
 public class Bicycle extends Vehicle {
     private boolean hasBell;
 
-    public Bicycle(double speed, double fuel, boolean hasBell) {
+    public Bicycle(int speed, double fuel, boolean hasBell) {
         super(speed, fuel);
         this.hasBell = hasBell;
           }

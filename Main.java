@@ -5,7 +5,7 @@ public class Main {
       Car.start();
       Car.displayFuel();
       Car.honk();
-      Car.getNumberofDoors();
+      Car.getNumberOfDoors();
       Car.stop();
       System.out.println();
 

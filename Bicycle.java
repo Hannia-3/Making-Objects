@@ -3,12 +3,12 @@ public class Bicycle extends Vehicle {
 
     public Bicycle(double speed, double fuel, boolean hasBell) {
         super(speed, fuel);
-        this.hasBell = hasBell
+        this.hasBell = hasBell;
           }
   
     @Override
     public void start() {
-          System.out.println(Pedal away!");
+          System.out.println("Pedal away!");
     }
 
     public void ringBell() {

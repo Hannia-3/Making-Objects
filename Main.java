@@ -9,7 +9,7 @@ public class Main {
       Car.stop();
       System.out.println();
 
-      Bicycle Bike = new Bicycle(30, 20, 0);
+      Bicycle Bike = new Bicycle(30, 20, true);
       Bike.start();
       Bike.displayFuel();
       Bike.ringBell();

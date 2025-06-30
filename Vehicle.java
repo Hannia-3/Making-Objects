@@ -16,7 +16,7 @@ public class Vehicle {
     }
 
     public final void displayFuel() {
-        System.out.println("Fuel level: " + this.fuel + " units");
+        System.out.println("Fuel level: " + this.fuel + " gallons");
     }
 
     public int getSpeed() {
